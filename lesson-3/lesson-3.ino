@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
   for(int i = 0; i < NUMBER_OF_PINS; i++) {
-    digitalWrite(PINS[i], turning_on? HIGH : LOW);
+    digitalWrite(PINS[i], turning_on ? HIGH : LOW);
     delay(TIME_UNIT);
   }
   turning_on = !turning_on;
